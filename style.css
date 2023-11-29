@@ -1,0 +1,162 @@
+/* Name : Mohammed Almadani */
+/* ID : 2140206 */
+/* Assignment : 02 */
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  background-image: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+}
+.card {
+  width: 700px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+  color: #ea5358;
+  font-weight: 900;
+  font-size: x-large;
+}
+
+.form {
+  margin-left: 20px;
+}
+
+label {
+  font-size: x-large;
+  color: #ea5358;
+}
+
+#crypto-name {
+  padding: 8px;
+  width: 200px;
+  border-radius: 50px;
+  margin-right: 50px;
+}
+
+.buttons {
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-size: larger;
+  transition: 1s;
+  background-image: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+  margin-right: 5px;
+}
+
+.buttons:hover {
+  border: #ea5358 solid 1px;
+  color: #ea5358;
+  background-image: none;
+  background-color: white;
+}
+.p {
+  color: #ea5358;
+}
+
+.informations {
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #ea5358;
+  font-size: large;
+  font-weight: 700;
+  border: #ea5358 dotted 2px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+@media (max-width: 835px) {
+  .card {
+    width: 500px;
+    height: 500px;
+  }
+  .title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: large;
+  }
+  label {
+    font-size: large;
+    margin-left: 70px;
+  }
+
+  #crypto-name {
+    width: 180px;
+    padding: 3px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+  .buttons {
+    padding: 3px 50px;
+    margin-right: 5px;
+  }
+
+  #Search {
+    margin-left: 75px;
+  }
+
+  .informations {
+    width: 400px;
+    margin-left: 33px;
+    margin-right: 30px;
+    font-weight: 500;
+    padding: 10px;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    margin-top: 100px;
+  }
+  .card {
+    width: 300px;
+    height: 470px;
+  }
+  .title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: large;
+  }
+  label {
+    font-size: medium;
+    margin-left: 5px;
+  }
+
+  #crypto-name {
+    width: 100px;
+    padding: 3px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+  .buttons {
+    padding: 2px 30px;
+    margin-right: 5px;
+  }
+
+  #Search {
+    margin-left: 15px;
+  }
+
+  .informations {
+    width: 250px;
+    margin-left: 15px;
+    margin-right: 30px;
+    font-weight: 500;
+    padding: 10px;
+    font-size: small;
+  }
+}
